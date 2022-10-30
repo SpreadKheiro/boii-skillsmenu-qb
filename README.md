@@ -13,6 +13,12 @@ Enjoy :)
 
 ### USAGE ###
 ```
+- Open the menu using a command
+
+/skillmenu
+```
+
+```
 - The menu uses your players meta data
 - Add any additional meta data you wish to use into `qb-core/server/player.lua`
 - An example is provided below for `drugxp` & `mining`
