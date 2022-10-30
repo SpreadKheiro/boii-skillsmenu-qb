@@ -8,9 +8,9 @@ game 'gta5'
 
 author 'CASE#1993'
 
-description 'BOII | Development - Drug System'
+description 'BOII | Development - Utility: Skills Menu'
 
-version '1.0.1'
+version '1.0.0'
 
 lua54 'yes'
 
