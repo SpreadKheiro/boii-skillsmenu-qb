@@ -19,7 +19,7 @@ shared_scripts {
 }
 client_scripts {
     'client/**/*',
-    'client/drugsmenu',
+    'client/drugmenu',
 }
 server_scripts {
     'server/*',
