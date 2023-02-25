@@ -11,3 +11,7 @@ local Core = exports[CoreFolder]:GetCoreObject()
 Core.Commands.Add('skillmenu', 'Check your current skills or job reputation!', {}, true, function(source, args)
     TriggerClientEvent('boii-simpleskills:cl:SkillMenu', source)
 end)
+
+Core.Commands.Add('drugmenu', 'Check your current drugs skills !', {}, true, function(source, args)
+    TriggerClientEvent('boii-simpleskills:cl:drugsmenu', source)
+end)
