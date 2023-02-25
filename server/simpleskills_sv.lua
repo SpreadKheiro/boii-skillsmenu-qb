@@ -15,3 +15,18 @@ end)
 Core.Commands.Add('skilldrug', 'Check your current drugs skills !', {}, true, function(source, args)
     TriggerClientEvent('boii-simpleskills:cl:drugsmenu', source)
 end)
+
+function collectPlayerData()
+    for _, playerId in ipairs(GetPlayers()) do
+      local playerIdent = GetPlayerIdentifier(playerId, 0)
+      local playerMetadata = GetPlayerMetadata(playerId)
+    end
+  end
+
+  Citizen.CreateThread(function()
+    while true do
+      Citizen.Wait(900000)
+  
+      collectPlayerData()
+    end
+  end)
